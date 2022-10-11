@@ -8,3 +8,11 @@ function squareSum(numbers){
     }
     return (numbers.reduce((a, b) => a + b, 0))
   }
+  //easiest way to solve problem
+
+
+  //function squareSum(numbers){
+//   return numbers.reduce(function(sum, n){
+//     return (n*n) + sum;
+//   }, 0)
+// }
