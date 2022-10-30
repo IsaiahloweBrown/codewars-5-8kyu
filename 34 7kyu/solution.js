@@ -12,3 +12,25 @@ const factorial = n => {
      }
       
     };
+    //Recursion #1 - Factorial
+
+    const factorial = (n) => {
+
+
+        if (n === 0) {
+            return 1;
+        }
+    
+    
+        else {
+            return n * factorial(n - 1);
+        }
+    }
+    
+    const num = 3;
+    
+    
+    if (num > 0) {
+        let result = factorial(num);
+        console.log(`The factorial of ${num} is ${result}`);
+    }
