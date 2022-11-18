@@ -1,5 +1,5 @@
 function getDivisorsCnt(n){
-    // todo
+    // todo www
     let nums = 0
     for (i=1;i<=n;i++) {
       
