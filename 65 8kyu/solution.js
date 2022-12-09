@@ -13,3 +13,5 @@ function rentalCarCost(d) {
        total = (d * 40) -50
    }
    return total
+
+}
