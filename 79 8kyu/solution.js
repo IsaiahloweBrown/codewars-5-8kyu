@@ -5,3 +5,5 @@ const reverseSeq = n => {
     }
     return arr
   };
+  //reverse
+  //8 kyu Reversed sequence
